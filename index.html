@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Portfolio
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+
+        <nav class="navbar" id="mynavbar">   
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>                      
+                <a href="#home" >Home</a>
+                <a href="#about" >About</a>    
+                <a href="#skills" >Skills</a>
+                <a href="#projects" >Projects</a>
+                <a href="#contact" >Contact</a>
+        
+            <script>
+                function myFunction() {
+                var x = document.getElementById("mynavbar");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+                }
+            </script>
+        </nav>
+        <!--home -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hi There! &nbsp; I am</div>
+                    <div class="text-2">Rhituraj Deori</div>
+                    <div class="text-3">And I'm a &nbsp;<span class="dynamic-text"></span>&nbsp;<span class="cursor">&nbsp;</span></div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--about-->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title">About me</h2>
+                <div class="about-content">
+                    <div class="profile">
+                            <img src="profile-img.jpg" alt=" pf img" class="pfimg" >                                              
+                    </div>   
+                    <div class="items"> 
+                        <p class="p-name">Hi, my name is Rhituraj Deori, currently a student in Department of Computer Science, Gauhati University.</p>
+                        <div class="row1">
+                            <div class="column1">
+                                <img src="calendar.png" alt="calender img" class="itemimg">
+                                <div class="p-name"> Birthday </div>
+                                <div class="p-des">16-2-2000<br></div>                  
+                            </div>
+                            
+                            <div class="column1">
+                                <img src="confetti.png" alt="confetti img" class="itemimg">
+                                <div class="p-name"> Age </div>
+                                <div class="p-des">23<br></div>                  
+                            </div>
+                                                        
+                            <div class="column1">
+                                <img src="gamepad.png" alt=" gamepad img" class="itemimg">
+                                <div class="p-name">Interests</div>
+                                <div class="p-des"> Gaming, Watching sitcomms<br></div>   
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="column1">
+                                <img src="phonebook.png" alt="phonebook img" class="itemimg" >
+                                <div class="p-name">Phone Number</div>
+                                <div class="p-des">+91 9365285013<br></div>                  
+                            </div>
+                            
+                            <div class="column1">
+                                <img src="gmail.png" alt=" gmail img" class="itemimg" >
+                                <div class="p-name">Mail</div>
+                                <div class="p-des">rhituraj2000@gmail.com<br></div>
+                            </div>
+                                        
+                            <div class="column1">
+                                <img src="map.png" alt=" map img" class="itemimg">
+                                <div class="p-name">Location</div>
+                                <div class="p-des">Guwahati, Assam<br></div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <div class="max-width">
+                <h2 class="title">Education</h2>
+                <div class="timeline">
+                    <div class="container1 left">
+                      <div class="content">
+                        <h2>2021-2023</h2>
+                        <p><b>MSc Computer Science</b><br>From Gauhati University, Guwahati</p>
+                      </div>
+                    </div>
+                    <div class="container1 right">
+                      <div class="content">
+                        <h2>2018-2021</h2>
+                        <p><b>Bsc Computer Science</b><br>From St. Edmunds College, Shillong</p>
+                      </div>
+                    </div>
+                    <div class="container1 left">
+                      <div class="content">
+                        <h2>2016-2018</h2>
+                        <p><b>HS Science</b><br>From Army Public School Narangi, Guwahati</p>
+                      </div>
+                    </div>
+                    <div class="container1 right">
+                      <div class="content">
+                        <h2>2016</h2>
+                        <p><b>High School</b><br>From Army Public School Narangi, Guwahati</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">Skills</h2>
+                <p>Some Languages And Softwares I Work With </p>
+            <div class="skill-contents">
+                <div class="skillbars">
+                    <div class="bars">
+                        <p>HTML</p>
+                        <div class="container">
+                        <div class="skill html">90%</div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <p>mySql</p>
+                        <div class="container">
+                        <div class="skill mySql">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillbars">
+                    <div class="bars">
+                        <p>CSS</p>
+                        <div class="container">
+                        <div class="skill css">80%</div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <p>Photoshop</p>
+                        <div class="container">
+                        <div class="skill ps">80%</div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="skillbars">
+                    <div class="bars">                            
+                        <p>JavaScript</p>
+                        <div class="container">
+                        <div class="skill js">65%</div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <p>Git</p>
+                        <div class="container">
+                        <div class="skill git">70%</div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="skillbars">
+                    <div class="bars">
+                        <p>C</p>
+                        <div class="container">
+                        <div class="skill c">70%</div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <p>VS Code</p>
+                        <div class="container">
+                        <div class="skill vs">80%</div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--projects-->
+        <section class="projects" id="projects">
+            <div class="max-width">
+                <h2 class="title">Projects</h2>
+                <div>
+                    <div class="projects-container">
+                        <div class="project-container project-card">
+                          <img
+                            src="project1.png"
+                            alt="expense-tracker"
+                            loading="lazy"
+                            class="project-pic"
+                          />
+                          <h3 class="project-title">Department Website</h3>
+                          <p class="project-details">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                            ratione vel inventore labore commodi modi quos culpa aut saepe!
+                            Alias!
+                          </p>
+                          <a href="https://neeharika-sonowal.github.io/Group-Assignment/" target="_blank" class="project-link">Check it Out</a>
+                        </div>
+                        <div class="project-container project-card">
+                          <img
+                            src="project2.png"
+                            alt="netflic-clone"
+                            loading="lazy"
+                            class="project-pic"
+                          />
+                          <h3 class="project-title">Pig latin Translator</h3>
+                          <p class="project-details">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                            ratione vel inventore labore commodi modi quos culpa aut saepe!
+                            Alias!
+                          </p>
+                          <a href="https://neeharika-sonowal.github.io/Pig-Latin-Translator/" target="_blank" class="project-link">Check it Out</a>
+                        </div>
+                        <div class="project-container project-card">
+                          <img
+                            src="project3.png"
+                            alt="greeny-earth"
+                            loading="lazy"
+                            class="project-pic"
+                          />
+                          <h3 class="project-title">Department Website</h3>
+                          <p class="project-details">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                            ratione vel inventore labore commodi modi quos culpa aut saepe!
+                            Alias!
+                          </p>
+                          <a href="https://neeharika-sonowal.github.io/Group-Assignment/" target="_blank" class="project-link">Check it Out</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact Me</h2>
+                    <div class="row">
+                        <div class="column4">
+                        <div class="card reveal">
+                          <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+                          <div class="info">
+                            <h3>Address</h3>
+                            <span>Guwahati, Assam</span>
+                          </div>
+                        </div>
+                        <div class="card reveal">
+                          <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                          </div>
+                          <div class="info">
+                            <h3>Phone</h3>
+                            <span>+91 6003064869</span>
+                          </div>
+                        </div>
+                        <div class="card reveal">
+                          <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                          </div>
+                          <div class="info">
+                            <h3>Email</h3>
+                            <span>shureeix@gmail.com</span>
+                          </div>
+                        </div>
+                        </div>
+                    <div class="column5">
+                      <form action="https://getform.io/f/4dc2fc90-ddd8-4970-8422-68454632baeb" method="POST">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Email</label>
+                        <input type="email" id="mail" name="mail" placeholder="Your email..">                
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="rowf">
+                <a href="http://www.instagram.com/shureei__"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/DigiN3ko?s=09"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/Neeharika-Sonowal"><i class="fa fa-github"></i></a>
+                </div>
+                
+                <div class="rowf">
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+                
+                <div class="rowf">
+                Made By Neeharika Sonowal
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>        
+    </body>
+</html>
